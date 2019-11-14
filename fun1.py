@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# n表示共有几个盘子
 def move(n,A,B,C):
     if n == 1:
         print (A,'--->',C)
